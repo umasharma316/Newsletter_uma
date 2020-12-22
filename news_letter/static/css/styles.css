@@ -14,35 +14,47 @@
 #frame_1 {
     visibility: hidden;
     animation: frame_1_animate 3.24s infinite;
+    width: 475px;
+    height: 509px;
 }
 
 #frame_2 {
     visibility: hidden;
     animation: 3.24s frame_2_animate infinite;
     animation-delay: 0.22s;
+    width: 475px;
+    height: 509px;
 }
 
 #frame_3 {
     visibility: hidden;
     animation: 3.24s frame_3_animate infinite;
     animation-delay: 1.06s;
+    width: 475px;
+    height: 509px;
 }
 
 #frame_4 {
     visibility: hidden;
     animation: 3.24s frame_4_animate infinite;
     animation-delay: 1.13s;
+    width: 475px;
+    height: 509px;
 }
 #frame_5 {
     visibility: hidden;
     animation: 3.24s frame_5_animate infinite;
     animation-delay: 1.18s;
+    width: 475px;
+    height: 509px;
 }
 
 #frame_6 {
     visibility: hidden;
     animation: 3.24s frame_6_animate infinite;
     animation-delay: 2.29s;
+    width: 475px;
+    height: 509px;
 }
 
 
@@ -50,6 +62,8 @@
     visibility: hidden;
     animation: 3.24s frame_7_animate infinite;
     animation-delay: 3.03s;
+    width: 475px;
+    height: 509px;
 }
 
 @keyframes frame_1_animate {
@@ -109,8 +123,31 @@
 }
 
 #rotimaker{
-    top: 330px;
-    left: 306px;
-    width: 619px;
-    height: 626px;
+    top: 129px;
+    left: 1293px;
+    width: 430px;
+    height: 435px;
+}
+
+.regional img{
+    top: 161px;
+    left: 988px;
+    width: 773px;
+    height: 379px;
+}
+
+.creativity img {
+    top: 757px;
+    left: 278px;
+    width: 674px;
+    height: 323px;
+    border-radius: 258px;
+    opacity: 1;
+}
+
+.book-review img{
+    top: 163px;
+    left: 968px;
+    width: 799px;
+    height: 335px;
 }

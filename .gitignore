@@ -1,6 +1,8 @@
 .vscode
 env
 db.sqlite
+news_letter/static/img/images_epic/*
+news_letter/static/img/images_epic.zip
 # Django #
 *.log
 *.pot
