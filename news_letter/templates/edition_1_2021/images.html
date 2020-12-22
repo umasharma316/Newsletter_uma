@@ -1,0 +1,33 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="{% static 'css/styles.css' %}" rel="stylesheet">
+</head>
+<body>
+    <!-- div for fridge gif -->
+    <div class="fridgecontainerdiv">
+        <object data="{% static 'img/frame_1.svg' %}" type="image/svg+xml" id="frame_1"></object>
+        <object data="{% static 'img/frame_2.svg' %}" type="image/svg+xml" id="frame_2"></object>
+        <object data="{% static 'img/frame_3.svg' %}" type="image/svg+xml" id="frame_3"></object>
+        <object data="{% static 'img/frame_4.svg' %}" type="image/svg+xml" id="frame_4"></object>
+        <object data="{% static 'img/frame_5.svg' %}" type="image/svg+xml" id="frame_5"></object>
+        <object data="{% static 'img/frame_3.svg' %}" type="image/svg+xml" id="frame_6"></object>
+        <object data="{% static 'img/frame_1.svg' %}" type="image/svg+xml" id="frame_7"></object>
+    </div>
+
+    <!-- div for magician image -->
+    <div class="magiciancontainerdiv">
+        <object data="{% static 'img/Magician Eng.svg' %}" type="image/svg+xml" id="magician"></object>
+    </div>
+
+    <!-- div for roti maker image -->
+    <div class="rotimakercontainerdiv">
+        <object data="{% static 'img/RotiMakerfinal.svg' %}" type="image/svg+xml" id="rotimaker"></object>
+    </div>
+</body>
+</html>

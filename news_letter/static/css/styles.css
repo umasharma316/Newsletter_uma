@@ -1,0 +1,116 @@
+.fridgecontainerdiv{
+    display: inline-block;
+    position: relative;
+}
+
+.fridgecontainerdiv > :first-child ~*{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+
+#frame_1 {
+    visibility: hidden;
+    animation: frame_1_animate 3.24s infinite;
+}
+
+#frame_2 {
+    visibility: hidden;
+    animation: 3.24s frame_2_animate infinite;
+    animation-delay: 0.22s;
+}
+
+#frame_3 {
+    visibility: hidden;
+    animation: 3.24s frame_3_animate infinite;
+    animation-delay: 1.06s;
+}
+
+#frame_4 {
+    visibility: hidden;
+    animation: 3.24s frame_4_animate infinite;
+    animation-delay: 1.13s;
+}
+#frame_5 {
+    visibility: hidden;
+    animation: 3.24s frame_5_animate infinite;
+    animation-delay: 1.18s;
+}
+
+#frame_6 {
+    visibility: hidden;
+    animation: 3.24s frame_6_animate infinite;
+    animation-delay: 2.29s;
+}
+
+
+#frame_7 {
+    visibility: hidden;
+    animation: 3.24s frame_7_animate infinite;
+    animation-delay: 3.03s;
+}
+
+@keyframes frame_1_animate {
+    0%   { visibility: visible;}
+    6.79%   { visibility: visible;}
+    6.8% { visibility: hidden; }
+    100% { visibility: hidden; }
+}
+
+@keyframes frame_2_animate {
+    0%   { visibility: visible;}
+    25.93%   { visibility: visible;}
+    25.94% { visibility: hidden; }
+    100% { visibility: hidden; }
+}
+
+@keyframes frame_3_animate {
+    0%   { visibility: visible;}
+    2.16%   { visibility: visible;}
+    2.17% { visibility: hidden; }
+    100% { visibility: hidden; }
+}
+
+@keyframes frame_4_animate {
+    0%   { visibility: visible;}
+    1.54%   { visibility: visible;}
+    1.55% { visibility: hidden; }
+    100% { visibility: hidden; }
+}
+
+@keyframes frame_5_animate {
+    0%   { visibility: visible;}
+    34.26%   { visibility: visible;}
+    34.27% { visibility: hidden; }
+    100% { visibility: hidden; }
+}
+
+@keyframes frame_6_animate {
+    0%   { visibility: visible;}
+    22.84%   { visibility: visible;}
+    22.85% { visibility: hidden; }
+    100% { visibility: hidden; }
+}
+
+@keyframes frame_7_animate {
+    0%   { visibility: visible;}
+    6.48%   { visibility: visible;}
+    6.49% { visibility: hidden; }
+    100% { visibility: hidden; }
+}
+
+#magician{
+    top: 631px;
+    left: 377px;
+    width: 477px;
+    height: 492px;
+}
+
+#rotimaker{
+    top: 330px;
+    left: 306px;
+    width: 619px;
+    height: 626px;
+}
