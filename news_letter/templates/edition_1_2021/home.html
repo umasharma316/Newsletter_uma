@@ -1,1 +1,152 @@
-Hey
+{% extends 'edition_1_2021/base.html' %}
+{% load static %}
+
+{% block content %}
+<section> 
+    <div class="row">
+        <div class="col-xs-12"><h2>Technical Section</h2></div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12"><h2>The Spark Within: Exploring the “funda” of Engineering!</h2></div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6">
+            <p>
+                Do you remember the joy of discovery as a kid standing near a refrigerator and slowly closing its door 
+                to see how the light of the refrigerator automatically switches off? At that time, 
+                we didn’t realize it, but we were looking at a problem as an Engineer!
+            </p>
+        
+            <p>
+                But what happens to these prospective engineers when they “grow up?” Do they disappear? 
+                Where are the cool engineers who could build a “chappati maker” for my mother or a dishwasher to 
+                save us from the tyranny of “bais?” Where? Why are we not able to find these prospective engineers 
+                in the world around us or indeed in ourselves?
+            </p>
+        
+            <p>
+                The answer to this is that we have not yet completely understood what Engineering is all about! 
+                We know that  Engineering is about making huge machinery, buildings, roads, and robots. But what 
+                we don’t know is the building blocks or atoms of these big miracles! And it's the same in the case 
+                of the technologies or methodologies that we use today. We know what that technology is, but we 
+                don’t know how to use it to solve real problems faced by you and me!
+            </p>
+
+            <!-- div for roti maker image -->
+            <div class="rotimakercontainerdiv">
+                <object data="{% static 'img/RotiMakerfinal.svg' %}" type="image/svg+xml" id="rotimaker"></object>
+            </div>
+        </div>
+        
+        <div class="col-md-6">
+            <!-- div for fridge gif -->
+            <div class="fridgecontainerdiv">
+                <object data="{% static 'img/frame_1.svg' %}" type="image/svg+xml" id="frame_1"></object>
+                <object data="{% static 'img/frame_2.svg' %}" type="image/svg+xml" id="frame_2"></object>
+                <object data="{% static 'img/frame_3.svg' %}" type="image/svg+xml" id="frame_3"></object>
+                <object data="{% static 'img/frame_4.svg' %}" type="image/svg+xml" id="frame_4"></object>
+                <object data="{% static 'img/frame_5.svg' %}" type="image/svg+xml" id="frame_5"></object>
+                <object data="{% static 'img/frame_3.svg' %}" type="image/svg+xml" id="frame_6"></object>
+                <object data="{% static 'img/frame_1.svg' %}" type="image/svg+xml" id="frame_7"></object>
+            </div>
+
+            <p>
+                For instance, we as engineering students of the present era know that the current “Make in India” 
+                wave demands engineering in the service of People and Society. Artificial Intelligence along with 
+                the Internet of Things is moving the world from technology “out there” in papers and thick books 
+                to technology “inside” our lives enabling new possibilities through diminutive slim mobile phones. 
+                Machine Learning, the next great engineering discipline, is putting minds and the ability to think 
+                and learn inside machines and hence popularising our interaction with machines! The good thing is 
+                that we all know a lot superficially about these topics and the bad thing is that we actually 
+                don’t know what's “under the hood” so that we may build these wonderful devices ourselves! 
+                Leaves us all a bit confused - No?
+            </p>
+        
+            <p>
+                Our technical section takes us to the roots of wide-ranging technologies widely used by us. 
+                Through this newsletter, we want to completely take off the hood covering the magic of technology 
+                and help you become the New Age technology wizards that our country and the world needs today. More 
+                important is that we wish to explore the idea of “ethical engineering” or our role in making a 
+                difference in society through our powers as young engineers. So join us in this exciting adventure 
+                of exploring the wizardry of technology.
+            </p>
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12"><h2>Regional Innovations Article: Next-Gen Vision Kit</h2></div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6">
+            <p>
+                Today, as we speak, more than 350 million people worldwide are partially sighted or blind. 
+                A further billion more have, reading difficulties and fatigue. With the loss of vision there come 
+                several other obstacles and challenges in our lives. Wouldn’t it be great, if these visually 
+                challenged people have a 24x7 assistant with them, to aid them with their daily tasks? 
+                With this problem statement in mind, this team of four from Delhi decided to develop the- 
+                ‘Next-Gen Vision Kit’, a personal assistant for the visually impaired.
+            </p>
+
+            <p>
+                They did not want to develop just a project but wished to create a difference in the lives of the 
+                visually impaired, by making them more confident and self-sufficient.  <br>
+                They have implemented a standalone wearable device that can be worn as headgear and will provide 
+                the person with all the important features that are needed very often via an integrated button 
+                interface and voice commands. 
+            </p>
+            <iframe width="420" height="315" src="https://www.youtube.com/embed/b42p8QWwkVI"></iframe>
+        </div>
+        <div class="col-md-6">
+            <div class="regional">
+                <img src="{% static 'img/Regionalinnovation1.jpg' %}">
+            </div>
+            <p>
+                Their project consists of these 5 main features:
+                <ul>
+                    <li>Object Detection. </li>
+                    <li>Face recognition.</li>
+                    <li>Navigation and Routing.</li>
+                    <li>Text recognition.</li>
+                    <li>Walking mode.</li>
+                </ul>
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <p>
+                In the making, the team was keen on using open-source software to make the product not just affordable 
+                but also easy to use and secure. The team, being inspired by the ideology of Atma Nirbhar electronics, 
+                is now working on their own single-board computer with enhanced processing power. Vaibhav Singh and team 
+                head while talking about this further quotes Alan Kay, while saying that, 
+                <q>
+                    People who are really serious about software should build their own hardware.
+                </q>
+                The difference between developing a mere project and creating a market-ready product lies in 
+                the approach. By addressing a real-world problem of the visually impaired and providing a 
+                technological solution for it the team members have shown us the real meaning of being engineers. 
+            </p>
+        
+            <p>
+                e-Yantra recognized these efforts by awarding them the ‘Best Project Implementation’ award in this 
+                year’s eYIC. Kudos to this team and their wonderful thought process!
+            </p>
+        
+            <p>
+                <i>
+                    We hope this inspires you, readers, to create something similar of your own and if you or 
+                    anyone you know already have then, do write to us and we would love to publish such 
+                    Regional Innovations in this Newsletter!
+                </i>
+            </p>
+        </div>
+        <div class="col-md-6">
+            <div class="regional">
+                <img src="{% static 'img/Regionalinnovation2.jpg' %}">
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
