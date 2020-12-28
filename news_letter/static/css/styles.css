@@ -1,11 +1,14 @@
-#body-bg{
-    background: 0% 0% no-repeat padding-box;
-    opacity: 1;
+* {
+    box-sizing: border-box;
 }
 
 .fridgecontainerdiv{
     display: inline-block;
     position: relative;
+    text-align: center;
+    margin: auto;
+    width: 50%
+    
 }
 
 .fridgecontainerdiv > :first-child ~*{
@@ -19,47 +22,47 @@
 #frame_1 {
     visibility: hidden;
     animation: frame_1_animate 3.24s infinite;
-    width: 475px;
-    height: 509px;
+    width: 100%;
+    height: auto;
 }
 
 #frame_2 {
     visibility: hidden;
     animation: 3.24s frame_2_animate infinite;
     animation-delay: 0.22s;
-    width: 475px;
-    height: 509px;
+    width: 100%;
+    height: auto;
 }
 
 #frame_3 {
     visibility: hidden;
     animation: 3.24s frame_3_animate infinite;
     animation-delay: 1.06s;
-    width: 475px;
-    height: 509px;
+    width: 100%;
+    height: auto;
 }
 
 #frame_4 {
     visibility: hidden;
     animation: 3.24s frame_4_animate infinite;
     animation-delay: 1.13s;
-    width: 475px;
-    height: 509px;
+    width: 100%;
+    height: auto;
 }
 #frame_5 {
     visibility: hidden;
     animation: 3.24s frame_5_animate infinite;
     animation-delay: 1.18s;
-    width: 475px;
-    height: 509px;
+    width: 100%;
+    height: auto;
 }
 
 #frame_6 {
     visibility: hidden;
     animation: 3.24s frame_6_animate infinite;
     animation-delay: 2.29s;
-    width: 475px;
-    height: 509px;
+    width: 100%;
+    height: auto;
 }
 
 
@@ -67,8 +70,8 @@
     visibility: hidden;
     animation: 3.24s frame_7_animate infinite;
     animation-delay: 3.03s;
-    width: 475px;
-    height: 509px;
+    width: 100%;
+    height: auto;
 }
 
 @keyframes frame_1_animate {
@@ -123,22 +126,23 @@
 #magician{
     top: 631px;
     left: 377px;
-    width: 477px;
-    height: 492px;
+    max-width: 100%;
+    height: auto;
 }
 
 #rotimaker{
     top: 129px;
     left: 1293px;
-    width: 430px;
-    height: 435px;
+    max-width: 300px;
+    width: 100%;
+    height: auto;
 }
 
 .regional img{
     top: 161px;
     left: 988px;
-    width: 773px;
-    height: 379px;
+    max-width: 100%;
+    height: auto;
 }
 
 .creativity img {
@@ -153,6 +157,30 @@
 .book-review img{
     top: 163px;
     left: 968px;
-    width: 799px;
-    height: 335px;
+    width: 100%;
+    height: auto;
+}
+
+.hallOfFame img {
+    height: 700px;
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+}
+
+.hallOfFame {
+    float: left;
+    padding: 10px
+}
+.clearfix {
+    overflow: auto;
+}
+
+iframe {
+    margin:auto;
+    display: block;
+}
+
+.KaviKornerHead{
+    text-align:center;
 }
