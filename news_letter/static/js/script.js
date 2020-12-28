@@ -20,17 +20,16 @@ var sections = $('a[href^="#"]');
 
 function isSelected(scrolledTo){
 
-var threshold = 100;
-var i;
+    var threshold = 100;
+    var i;
 
-for (i = 0; i < sections.length; i++) {
-    var section = $(sections[i]);
-    var target = getTargetTop(section);
-   
-    if (scrolledTo > target - threshold && scrolledTo < target + threshold) {
-        sections.removeClass("active");
-        section.addClass("active");
-    }
-
-};
+    for (i = 0; i < sections.length; i++) {
+        var section = $(sections[i]);
+        var target = getTargetTop(section);
+    
+        if (scrolledTo > target - threshold && scrolledTo < target + threshold) {
+            sections.removeClass("active");
+            section.addClass("active");
+        }
+    };
 }

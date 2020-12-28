@@ -193,19 +193,16 @@ iframe {
 }
 
 /* ==========Navigation============================ */
-
-
-
 body{
     margin: 0px;
     padding: 0px;
-  }
+}
   
 nav{ 
     -webkit-backface-visibility: hidden;
     z-index: 5; 
     position: fixed; 
-    top: 25%;
+    top: 13%;
     left: 35px;
     right: 0px;
     background-color: rgba(17, 16, 16, 0.493);
@@ -246,7 +243,7 @@ nav a.active{
     top:2px;
 }
 
-nav a:hover { 
+nav a:hover {  
     width: 5px;
     height: 50px; 
     left: -3px; 
@@ -262,6 +259,6 @@ nav a:hover {
 }
 
 .container-fluid {
-    margin-left:8%;
+    margin-left:9%;
     padding:1px 16px;
 }
